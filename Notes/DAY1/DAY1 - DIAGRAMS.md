@@ -387,23 +387,3 @@ How threads interact
 How JVM optimizes performance
 ```
 
----
-
-✅ **Tip for your Internship Repo**
-
-Add a section like this in README:
-
-```
-Day 1 Learning
-✔ Java Basics
-✔ OOP Concepts
-✔ Object Copy
-✔ Static Keyword
-✔ Garbage Collector
-✔ Java Memory Model
-```
-
----
-
-If you want, I can also give you a **“Senior Developer Level Java Learning Map”** (roadmap of **what to study after these topics**) so your **internship learning becomes 10× stronger than other interns.**
-
