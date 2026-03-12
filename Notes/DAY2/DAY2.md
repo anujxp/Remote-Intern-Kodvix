@@ -433,21 +433,4 @@ Answer:
 
 > OutOfMemoryError occurs when the JVM cannot allocate additional memory for new objects.
 
----
-
-✅ If you want, I can also explain **extremely tricky Java interview questions** like:
-
-* **Why String is immutable**
-* **Why HashMap is not thread safe**
-* **How ConcurrentHashMap works internally**
-* **ClassLoader working**
-* **Java object creation inside JVM (deep)**
-
-These are **very frequently asked in Java backend interviews.**
-
-
-
-
-
-
 

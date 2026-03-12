@@ -1,16 +1,3 @@
-Below is a **colorful, professional GitHub README version** of your notes.
-It uses:
-
-* 🎨 Colored badges
-* 📦 Highlight boxes
-* 📊 Diagrams
-* 💡 Tips
-* 🧠 Interview answers
-
-You can **directly paste this into GitHub README.md**.
-
----
-
 # 🧠 JVM Memory Deep Dive
 
 ### Heap Structure • G1 GC • Memory Leak vs OutOfMemoryError
