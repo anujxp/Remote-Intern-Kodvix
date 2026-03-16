@@ -1,0 +1,15 @@
+- Object-Oriented Programming Concepts – 3H
+
+Immutable Classes
+ , Association
+ , Aggregation,
+ Composition ,
+ IS-A vs HAS-A Relationship
+ ,Shallow Copy vs Deep Copy (clone()),
+ Coupling & Cohesion,
+ SOLID Principles Overview
+
+- Abstraction (Abstract Classes & Interfaces) – 3H  
+- Encapsulation – 2H
+
+- Develop comprehensive and Engaging Notes on IntelliJ IDEA shortcuts.
