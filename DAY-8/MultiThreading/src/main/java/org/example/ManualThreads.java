@@ -42,7 +42,7 @@ public class ManualThreads {
         System.out.println("Total Time: " + (System.currentTimeMillis() - startTime) + "ms");
     }
 
-    private static long calculateFactorial(int n) {
+    public static long calculateFactorial(int n) {
         try { Thread.sleep(1000); } catch (InterruptedException e) {} // Simulating heavy work
         long fact = 1;
         for (int i = 1; i <= n; i++) fact *= i;
