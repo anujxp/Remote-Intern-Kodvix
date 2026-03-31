@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="student" class="com.core.Student" />
+    <bean id="ts" class="com.core.Student" autowire="byType">
+    <bean id="ts" class="com.core.Student" autowire="constructor">
+
+
+</beans>
+
+<!--<bean id="sb" class="services.SpringBoot" primary="true"/>-->
+<!--<bean id="java" class="services.Java"/>-->
+<!--        &lt;!&ndash; <bean id="ts" class="services.TShapedSkills" autowire="byType"> &ndash;&gt;-->
+<!--        &lt;!&ndash; <property ref="java" name="course"></property> &ndash;&gt;-->
+<!--        &lt;!&ndash; <constructor-arg ref="java" name="course"></constructor-arg> &ndash;&gt;-->
+<!--<bean id="ts" class="services.TShapedSkills" autowire="constructor">-->
+<!--</bean>-->
