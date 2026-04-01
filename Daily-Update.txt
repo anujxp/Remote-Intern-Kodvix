@@ -13,3 +13,45 @@ Immutable Classes
 - Encapsulation – 2H
 
 - Develop comprehensive and Engaging Notes on IntelliJ IDEA shortcuts.
+
+
+
+how do you handle the Exception in the microservice architecture 
+1/2
+try with resources 1/2
+
+
+If a method has a return statement in both the try block and the finally block, which one will execute?
+0
+
+How do you create a Custom Exception? Why would you need one?
+1
+
+can we throw Exception with the constructor 
+Exception chaining 
+can you Explain auto ducking
+
+diff b/w throwing exception and catching Excepton
+
+
+
+
+- Polymorphism (Compile-time & Runtime) --done 
+- Method Overloading and Overriding-- done 
+- leetcode Questions 
+- Make docs on git & github ---doee
+- Dsa Question done
+
+
+what type of functional interface are used in te stream ?what they do ?
+
+
+what happens when you use customobject as a key 
+
+bucket level locking 
+
+What is ConcurrentHashMap, and why is it preferred over Collections.synchronizedMap()?
+
+What is the significance of the "Load Factor" and "Initial Capacity"?
+
+Explain how resizing (re-hashing) works when the map reaches its threshold (capacity×load_factor).
