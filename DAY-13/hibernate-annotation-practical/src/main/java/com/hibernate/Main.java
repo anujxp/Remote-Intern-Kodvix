@@ -15,7 +15,7 @@ public class Main {
 
         try (SessionFactory factory = cfg.buildSessionFactory()) {
 
-            // --- CREATE (Insert) ---
+            // create
             try (Session session = factory.openSession()) {
                 Transaction tx = session.beginTransaction();
                 Student st1 = new Student("Anuj Gupta", "Indore");
@@ -24,7 +24,7 @@ public class Main {
                 System.out.println("CREATE: Student saved with ID: " + st1.getId());
             }
 
-            // --- READ (Fetch) ---
+            //READ
             int studentId;
             try (Session session = factory.openSession()) {
                 // find() is the modern JPA standard; returns null if not found
@@ -44,7 +44,7 @@ public class Main {
                 }
             }
 
-            // --- DELETE (Remove) ---
+            // delete
             try (Session session = factory.openSession()) {
                 Transaction tx = session.beginTransaction();
                 Student studentToDelete = session.find(Student.class, studentId);

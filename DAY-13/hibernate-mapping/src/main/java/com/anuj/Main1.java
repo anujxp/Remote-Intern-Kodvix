@@ -32,16 +32,15 @@ public class Main1 {
             List<Student> searchResults = query3.list();
             searchResults.forEach(s -> System.out.println("Matches:" + s.getName()));
 
-            System.out.println("\n--- 4. Projection (Select only Names) ---");
-            // Note: Returning String.class because we only select one column
+            System.out.println("\n4. Projection (Select only Names)");
             Query<String> query4 = session.createQuery("select name from Student", String.class);
             List<String> nameList = query4.list();
             System.out.println("All Student Names: " + nameList);
 
             System.out.println("\n--- 5. Pagination (Top 2 Records) ---");
             Query<Student> query5 = session.createQuery("from Student order by id desc", Student.class);
-            query5.setFirstResult(0); // Offset
-            query5.setMaxResults(2);  // Page Size
+            query5.setFirstResult(0);
+            query5.setMaxResults(2);
             List<Student> paginated = query5.list();
             paginated.forEach(s -> System.out.println("Recent: " + s.getName()));
 
