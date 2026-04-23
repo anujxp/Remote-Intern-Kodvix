@@ -7,7 +7,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     Student student;
-    public void
+
     public static void main(String[] args) {
         ApplicationContext container = new ClassPathXmlApplicationContext("applicationconfigue.xml");
         Student s = container.getBean(Student.class);
